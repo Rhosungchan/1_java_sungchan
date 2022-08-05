@@ -22,6 +22,8 @@ public class JavaTest {
 		 * 변수의 선언 : 실수형 / 정수형/ 논리형 / 문자형 / 문자열 
 		 * */
 		
+		
+		System.out.println("git 쉽지 않죠?");
 	}
 
 }
