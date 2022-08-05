@@ -42,7 +42,8 @@ public class VariableExemple5 {
 			
 			//open perspective
 			
-			System.out.println("내가 추가한 내용");
+			// 주석 김효동은 놓쳣다
+			System.out.println("노성찬 깃허브 어려어");
 	}
 
 }
