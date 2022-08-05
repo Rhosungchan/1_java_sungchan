@@ -44,6 +44,9 @@ public class VariableExemple5 {
 			
 			// 주석 김효동은 놓쳣다
 			System.out.println("노성찬 깃허브 어려어");
+			int aaa = 10;
+			
+			
 	}
 
 }
