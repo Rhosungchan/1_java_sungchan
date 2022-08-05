@@ -41,6 +41,8 @@ public class VariableExemple5 {
 			
 			
 			//open perspective
+			
+			System.out.println("내가 추가한 내용");
 	}
 
 }
