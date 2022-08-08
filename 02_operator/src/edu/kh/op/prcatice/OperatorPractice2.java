@@ -32,7 +32,6 @@ public class OperatorPractice2 {
 		 
 		 sc.nextLine(); // 입력 버퍼 맨 앞에 남은 엔터를 꺼내옴 -> 입력 버퍼 청소
 		 
-		 
 		 System.out.print("성별(남학생/여학생) : ");
 		 String gender = sc.nextLine(); 
 		 System.out.print("성적(소수점 아래 둘째 자리까지) : ");
@@ -40,8 +39,6 @@ public class OperatorPractice2 {
 		 
 	     System.out.printf("%d학년 %d반 %d번 %s %s의 성적은 %.2f점입니다.", grade, classroom, Number, name, gender, score);
 	  
-	
-	    
 	}
 
 }
