@@ -16,7 +16,7 @@ public class VariableExample3 {
 		int num1;
 		int Num1;
 	/*  int Num1;
-		-uplicate local variable Num1
+		-Duplicate local variable Num1
 		-Num1 변수가 중복이다 (error)         */
 		
 	// 길이 제한 없음 예시 
