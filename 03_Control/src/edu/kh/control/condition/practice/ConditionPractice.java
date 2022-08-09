@@ -134,8 +134,8 @@ public class ConditionPractice {
 		} else {                    
 			System.out.printf("중간고사 점수(20) : %.1f \n",midTerm);
 			System.out.printf("기말고사 점수(30) : %.1f \n",finalTetm);
-			System.out.printf("과제 점수(30) : %.1f \n",report);
-			System.out.printf("출석 횟수(20) : %.1f \n",attendence );
+			System.out.printf("과제 점수    (30) : %.1f \n",report);
+			System.out.printf("출석 횟수    (20) : %.1f \n",attendence );
 			
 			double sum = midTerm+finalTetm+report+attendence;
 			System.out.printf("총점 : %.1f \n",sum);
