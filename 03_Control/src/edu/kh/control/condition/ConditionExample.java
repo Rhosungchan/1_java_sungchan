@@ -77,6 +77,120 @@ public class ConditionExample {
 		System.out.println("[if문 예시 2 종료]");
 		
 	}
+	
+	// 20220809
+	
+	public void ex3() {
+		
+		// if - else if - else
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1~12 사이의 정수를 입력해주세요 : ");
+		int input = sc.nextInt();
+		
+		String season; // 변수 선언
+		
+		if( input >= 3 && input <= 5) {
+			season = "봄";
+		} else if(input >=6 && input <=8 ){
+		    season = "여름";
+		} else if(input >= 9 && input <= 11 ){
+		    season = "가을";
+		} else if(input == 12 || input ==1 || input ==2 ) {
+			season = "겨울";
+		} else {
+			season = "해당하는 계절이 없습니다.";
+		}
+		
+		
+		// (Error) The local variable season may not have been initialized
+		System.out.println(season);
+		
+		
+		
+	}
+	
+	
+	public void ex4() {
+		
+		// 실습 문제 : 다음 문제를 작성하시요 
+		// 나이를 입력받아 
+		// 13세 이하면 "어린이"
+		// 13세 초과, 19세이하면 "청소년"
+		// 19세 초과 시 "성인"을 출력
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("나이를 입력하시요 : ");
+		int age = sc.nextInt();
+		
+		String division;
+		
+		if( age <= 13) {
+		    division = "어린이";
+		} else if(age <= 19 ){
+            division = "청소년";
+		} else {
+            division = "성인";
+		}
+		
+		System.out.println(division);
+		
+	}
+	
+	public void ex5() {
+		
+		
+		//실습문제 5번  
+		// 놀이기구 탑승 제한 검사
+	      // 나이가 12세 이상, 키 140.0cm 이상 일 경우에만 "탑승 가능"
+	      // 나이가 12미만인 경우 : "적정 연령이 아닙니다."
+	      // 키가 140.0cm 미만 : "적정 키가 아닙니다."
+	      // 나이를 0세 미만, 100세 초과 시 : "잘못 입력 하셨습니다."
+		
+		
+		Scanner sc = new Scanner(System.in); 
+		System.out.println("나이 입력 : ");
+		int age = sc.nextInt();
+		
+		System.out.println("키 입력: ");
+		double height = sc.nextDouble();
+		
+		String result;
+		                                                        //             강사님 예시 1번    
+		if(age >= 12 && age < 100 && height >= 140.0) {         //               if (age < 0 || age >100) {   
+			 result = "탑승가능";                               //                   result = "잘못 입력하셨습니다.";
+		} else if(age < 12) {                                   //             } else {       
+			 result = "적정 연령이 아닙니다.";                  //                 if(age < 12) {       
+		} else if(height < 140.0) {                             //                  result = "적정 연령이 아닙니다.";
+			 result = "적정 키가 아닙니다.";                    //             } if (height < 140.0) { 
+		} else {                                                //                  result = "적정 키가 아닙니다.";
+			 result = "잘못 입력하셨습니다.";                   //             } else {        
+		}                                                       //                  result = "탑승가능";   
+			                                                    //             }
+		System.out.println(result);
+		
+	    /* 강사님 예시 2번
+		   if(age < 0 || age >100) {
+			  result = "잘못 입력하셨습니다.";
+		   } else if(age < 12) { 
+			  result = "적정 연령이 아닙니다.";
+		   } else if(height < 140.0) { 
+			  result = "적정 키가 아닙니다.";
+		   } else {
+			   result = "탑승가능";
+		   }  */
+
+				
+	}
+	
+	
+	
+	
+	
+	
+	
 		
 }
 	
