@@ -10,27 +10,26 @@ public class ConditionRun {
 		ConditionExample ex = new ConditionExample();
 		
 		// 커서놓고 -> ctrl + / ==> 한줄주석
-		// ex.test1();
-		// ex.test2();
+		//  ex.test1();
+		//  ex.test2();
 		
-		// ex.ex1();
-		// ex.ex2();
-		// ex.ex3();
-		// ex.ex4();
-		// ex.ex5();
+		//  ex.ex1();
+		//  ex.ex2();
+		//  ex.ex3();
+		//  ex.ex4();
+	    //  ex.ex5();
 		
 		
 		SwitchExample switchEx = new SwitchExample();
 		// switchEx.ex1();
-		// switchEx.ex2();
+	    // switchEx.ex2();
 		// switchEx.ex3();
-		// switchEx.ex4();
-		switchEx.ex5();
+		//  switchEx.ex4();
+		  switchEx.ex5();
 		
 		
 
-	Scanner sc = new Scanner(System.in);
-		
+	
 	}
 }
 

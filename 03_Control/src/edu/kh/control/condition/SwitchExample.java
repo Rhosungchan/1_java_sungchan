@@ -36,7 +36,7 @@ public class SwitchExample {
 			int input = sc.nextInt();
 			
 			String result;
-			
+//			
 //			if(input == 1) {
 //				result = "빨간색";
 //			} else if (input == 2) {
@@ -49,7 +49,7 @@ public class SwitchExample {
 //			    result = "흰색";  
 //			}
 //          범위 드래그로 영역 지정 한 후 crtl + /  => 범위주석  
-			
+//			
 			
 			
 			// 식 == 여러 값이 나오는 경우
@@ -79,7 +79,7 @@ public class SwitchExample {
 		// 정수 입력 : 1
 		// 백팀입니다.
 		
-		// 정수입력 : 5
+		// 정수입력 : 4
 		// 깍두기입니다.
 		
 		Scanner sc = new Scanner(System.in); 
@@ -163,7 +163,7 @@ public class SwitchExample {
 	
 		// [실행화면]
 		// 정수1 입력 : 5
-		// 연산자 입력 : *
+		// 연산자 입력 : @
 		// 정수2 입력 : 3
 		// 존재하지 않는 연산자입니다.
 	
@@ -207,7 +207,7 @@ public class SwitchExample {
 		case 3  : case 4  : case 5  : season = "봄";   break;
 		case 6  : case 7  : case 8  : season = "여름"; break;
 		case 9  : case 10 : case 11 : season = "가을"; break;
-		case 12 : case 1  : case 2  : season = "겨을"; break;
+		case 12 : case 1  : case 2  : season = "겨울"; break;
 		default : season = "잘못 입력하셨습니다.";
 		}
 				// 위와 같은 방식으로 가독성있게 정리해도된다.!(필기)

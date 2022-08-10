@@ -14,7 +14,7 @@ public class ConditionPractice {
 		System.out.println("숫자 한 개 입력하세요 : ");
 		int input = sc.nextInt();
 		
-		if(input > 0) {
+		if(input < 0) {
 			System.out.println("양수만 입력해주세요.");
 		} else if(input % 2 == 0) {
 			System.out.println("짝수입니다.");
@@ -26,7 +26,7 @@ public class ConditionPractice {
 	//실습문제 2	
 			
 	public void practice2() {
-		// 풀이 1번
+//		// 풀이 1번
 //		System.out.println("국어 : ");
 //		int kor = sc.nextInt();
 //		System.out.println("영어 : ");
@@ -51,6 +51,12 @@ public class ConditionPractice {
 		int sum = kor + eng + math;
      	double avg = sum /3.0;
 		
+     	System.out.println("국어 : "+ kor);
+     	System.out.println("수학 : "+ math);
+     	System.out.println("영어 : "+ eng);
+     	System.out.println("합계 : "+ sum);
+     	System.out.println("평균 : "+avg);
+     	
 		if(kor >= 40 && eng >= 40 && math >= 40 && avg >= 60) {
 			System.out.println("축하합니다. 합격입니다.");
 		} else { 
@@ -102,6 +108,7 @@ public class ConditionPractice {
 			result = "고도비만";
 		}
 		System.out.println(result);
+		
 	}
 	
 	// 실습문제 5
@@ -148,11 +155,44 @@ public class ConditionPractice {
 			}
 		}
 		
-			
+		// 복습
+//		System.out.println("중간고사 점수 : ");
+//		int mid = sc.nextInt();
+//		System.out.println("기말고사 점수 : ");
+//		int fin = sc.nextInt();
+//		System.out.println("과제 점수 : ");
+//		int rpt = sc.nextInt();
+//		System.out.println("출석 횟수 : ");
+//		int att = sc.nextInt();
+//		
+//		
+//	    mid *= 0.2;
+//		fin *= 0.3;
+//		rpt *= 0.3;
+//		double sum = mid + fin + rpt + att;
+//		
+//		System.out.println("============결과==============");
+//		
+//		if(att <= 20*(1-0.3)) { 
+//			System.out.println("Fail [출석 횟수 부족]");
+//		} else {
+//			System.out.println("중간고사 점수 (20) : " + (double)mid);
+//			System.out.println("기말고사 점수 (30) : " + (double)fin);
+//			System.out.println("과제 점수     (30) : " + (double)rpt);
+//			System.out.println("출석 횟수     (20) : " + (double)att);
+//			System.out.println("총점 : " + sum);
+//		} if(sum >= 70) {
+//			System.out.println("PASS");
+//		} else {
+//			System.out.println("FAil [점수미달]");
+//		}
+		
+		
 		
 		
 		
 	}
+
 
 
 	

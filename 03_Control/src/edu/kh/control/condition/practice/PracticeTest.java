@@ -2,7 +2,7 @@ package edu.kh.control.condition.practice;
 
 import java.util.Scanner;
 
-public class ConditionPractice {
+public class PracticeTest {
 	
 	public void practice1() {
 		
