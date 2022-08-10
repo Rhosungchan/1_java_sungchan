@@ -32,7 +32,7 @@ public class ForExample {
 //		     1) 초기식   ; 2) 조건식 ; 4) 증감식;    
 //                         5)          7)
 			  
-			  System.out.println(i+"출력");
+			  System.out.print(i+"출력 ");
 //			  3) 반복수행할 코드
 //			  6) 			  
 			  
@@ -63,7 +63,7 @@ public class ForExample {
 			
 //          3)
 //          6)			
-			System.out.println(i+"출력");
+			System.out.print(i+"출력 ");
 	}
 	
 	System.out.println("==============================");
@@ -143,14 +143,14 @@ public class ForExample {
 	   public void ex5() {
 		   
 // 문제 풀이 1번
-//		         for(int i = 'A' ; i <= 'Z' ; i++) {
-//			         System.out.println((char)i);
-//		         }
+		         for(int i = 'A' ; i <= 'Z' ; i++) {
+			         System.out.println((char)i);
+		         }
 		   
 // 문제 풀이 2번   		   
-		         for(char i = 'A'; i <= 'Z'; i++) {
-			         System.out.println(i);
-		         }
+//		         for(char i = 'A'; i <= 'Z'; i++) {
+//			         System.out.print(i);
+//		         }
 	   }
     //----------------------for문 기초 사용법 6------------------------------
 	// 10부터 1까지 1씩 감소하면서 출력
@@ -159,11 +159,11 @@ public class ForExample {
 	   
 		// 문제 풀이 1번 
 		for(int i = 1 ; i >= 10 ; i--) {
-			System.out.println(i);
+			System.out.print(i+" ");
 			}
 		// 문제 풀이 2번 
 		for(int i = 10 ; i >= 1 ; i--) {
-			System.out.println(i);
+			System.out.print(i+" ");
 			}
 	   	}
 	   
@@ -199,16 +199,16 @@ public class ForExample {
 	   public void ex8() {
 		  Scanner sc = new Scanner(System.in);
 		  
-		  System.out.println("입력 받을 정수의 개수 : ");
+		  System.out.print("입력 받을 정수의 개수 : ");
 		  int input = sc.nextInt();
 
 		  int sum = 0;
 		  
 		  for(int i=1 ; i <= input ; i++) {
-			  System.out.println("입력 "+i+" : ");
+			  System.out.print("입력 "+i+" : ");
 			  sum += sc.nextInt();
 		  }
-		  System.out.println("합계 : "+sum);
+		  System.out.print("합계 : "+sum);
 	   }
 	   
 	  //---------------------for문 기초 사용법 9--------------------------------
@@ -403,23 +403,18 @@ public class ForExample {
 	  
 	    
 	    public void ex17() {
-	    
 	    	int sum = 0;
 	    	int count = 0;  //수를 셀 때는 0부터 1씩 증가시키면서 세는 것이 보통
-	    	
 	    	for(int i =1 ; i<=20 ; i++) {
-	    		
 	    		// 3의 배수만 출력 
 	            if(i%3==0) {
 	            	System.out.print(i+" ");
 	            	sum += i; // 누적
 	            	count++;  // 1증가
 	            }
-	    		
 	    	}
 	    	System.out.println("\nsum : "+ sum);
 	    	System.out.println("count : "+ count);
-	    	
 	    }
 	    
 	  //=============================================================================   
