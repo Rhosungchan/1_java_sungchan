@@ -15,6 +15,7 @@ public class BranchRun {
 //		BranchEx.ex4();
 //		BranchEx.ex5();
 //		BranchEx.upDownGame();
+		BranchEx.RPSGame();
 		
 		
 	}
