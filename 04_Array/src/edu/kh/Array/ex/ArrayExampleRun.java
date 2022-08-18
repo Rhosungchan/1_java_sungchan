@@ -8,10 +8,10 @@ public class ArrayExampleRun {
 		
 		
 //		ArrayEx.ex1();
-//		ArrayEx.ex2();
+		ArrayEx.ex2();
 //		ArrayEx.ex3();
 //		ArrayEx.ex4();
-		ArrayEx.ex5();
+//		ArrayEx.ex5();
 //		ArrayEx.ex6();
 //		ArrayEx.ex7();
 //		ArrayEx.ex8();
@@ -19,6 +19,13 @@ public class ArrayExampleRun {
 //		ArrayEx.ex9();
 //		ArrayEx.ex10();
 //		ArrayEx.ex11();
+		
+		ArrayExample2 ArrayEx2 = new ArrayExample2();
+//		ArrayEx2.ex1();
+//		ArrayEx2.ex2();
+//		ArrayEx2.ex3();
+//		ArrayEx2.ex4();
+		
 		
 	}
 	

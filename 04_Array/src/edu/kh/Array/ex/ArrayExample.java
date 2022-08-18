@@ -461,6 +461,10 @@ public class ArrayExample {
 			
 			// 비어있다 / 참조하는 것이 없다. /없다는 다른 의미다.
 		}
+		
+		
+		
+		
 }
 	
 	
