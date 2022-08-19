@@ -165,7 +165,7 @@ public class ArrayPractice {
 		
 		char[] arr = new char[preciousNumber.length()];
 		for(int i =0; i<8; i++) {
-			if
+			
 		}
 		System.out.println();
 		
