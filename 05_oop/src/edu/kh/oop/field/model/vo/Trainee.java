@@ -13,7 +13,7 @@ public class Trainee { // 훈련생
 	
 	
 	// 초기화 블록 : 객체(instance) 필드를 초기화하는 블록 
-	// -instance block : static이 없는 필드 값 초기화(생성 시 마다)
+	// - instance block : static이 없는 필드 값 초기화(생성 시 마다)
 	// - static bolck  : static이 있는 필드 값 초기화(프로그램 실행 시 1회)
 	
 	
