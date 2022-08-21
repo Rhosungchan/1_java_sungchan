@@ -1,5 +1,6 @@
 package edu.kh.Array.practice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayPractice {
@@ -162,41 +163,148 @@ public class ArrayPractice {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("주민등록번호(-포함) : ");
 		String preciousNumber = sc.next();
-		
+
 		char[] arr = new char[preciousNumber.length()];
-		for(int i =0; i<8; i++) {
+
+		for (int i = 0; i < arr.length; i++) {
+
+			if (i > 8) {
+				arr[i] = '*';
+			} else {
+				arr[i] = preciousNumber.charAt(i);
+			}
+			System.out.print(arr[i]);
+		}
+
+	}
+	
+//	3이상인 홀수를 입력받아 배열의 중간까지는 1부터 1씩 증가하여 
+//	오름차순으로 값을 넣고, 중간 이후부터 끝까지는 
+//	1씩 감소하여 내림차순으로 값을 넣어 출력하세요.
+//	단, 입력한 정수가 홀수가 아니거나 3 미만일 경우“다시 입력하세요”를 출력하고
+//	다시 정수를 받도록 하세요.
+	public void ex8() {
+
+		Scanner sc = new Scanner(System.in);
+
+		int[] arr;
+		int num = 1;
+
+		while (true) {
+
+			System.out.print("정수 : ");
+			int input = sc.nextInt();
+
+			if (input < 3 || input % 2 == 0) {
+				System.out.println("다시 입력하세요.");
+			} else {
+				arr = new int[input];
+				for (int i = 0; i < arr.length; i++) {
+					if(i<arr.length/2) {
+						arr[i] = num++;
+					} else {
+						arr[i] = num--;
+					} System.out.println(arr[i]);
+					
+				} break;
+			}
+				
+		}
+
+	}
+	
+	public void ex9() {
+		
+		int[] arr = new int[10]; 
+		
+		System.out.print("발생한 난수 : "); 
+		for(int i = 0; i<10; i++) {
+			int ran = (int)(Math.random()*10+1);
 			
+			arr[i] = ran;
+			System.out.print(arr[i]+" "); 
 		}
-		System.out.println();
+	}
+	
+	public void ex10() {
+
+		int[] arr = new int[10];
+		int max = arr[0];
+		int min = arr[0];
+
+		System.out.print("발생한 난수 : ");
+		for (int i =0 ; i < 10; i++) {
+			int ran = (int) (Math.random() * 10+1);
+
+			arr[i] = ran;
+			System.out.print(arr[i] + " ");
 		
-		for(int i =8; i<arr.length; i++) {
-			 System.out.print("*");
+			if(arr[i]>max) {
+				max = arr[i]; 
+			}
+			if(arr[i]<min) {
+				min = arr[i];
+			}
+		}	
+		
+		System.out.println("\n최대값 : "+max);
+		System.out.println("최소값 : "+min);
+
+	}
+	
+	public void ex11() {
+		
+
+		int[] arr = new int[10]; 
+		
+		for(int i = 0; i<arr.length; i++) {
+			int ran = (int)(Math.random()*10+1);
+			
+			arr[i] = ran;
+			
+			for(int x = 0; x<i; x++) {
+				
+				if(arr[x]==ran) {
+					i--;
+					break;
+				}
+			}
 		}
+		for(int i = 0; i <arr.length; i++ ) {
+			
+			System.out.print(arr[i]+" ");
+		}
+	}
+	
+	public void ex12() {
 		
+		int[] arr = new int[6];
+		
+		for(int i = 0; i<arr.length; i++) {
+			
+			int ran = (int)(Math.random()*46);
+			arr[i] = ran;
+			
+			for(int x = 0; x < i; x++) {
+				
+				if(arr[x] == ran) {
+					i--;
+					break;
+				}
+			}
+		}
+		Arrays.sort(arr);
+		for(int i = 0; i<arr.length; i++) {
+			System.out.print(arr[i]+" ");
+		}
 	}
 	
 	
+	public void ex13() {
+		
+		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}
 	
 	
 	
