@@ -302,6 +302,9 @@ public class ArrayPractice {
 	
 	public void ex13() {
 		
+		Scanner sc = new Scanner(System.in);
+		
+		
 		
 	
 	}
