@@ -99,7 +99,7 @@ public class MapService {
 
 		System.out.println("=========================");
 
-		// keySet() : Map애서 key 부분만을 추출하여 Set 형태로 변환
+		// keySet() : Map에서 key 부분만을 추출하여 Set 형태로 변환
 
 		// for/ while / if문 작성 시 {}이 없다면
 		// 다음 한 줄 (다음 세미콜론까지)에만 영향을 미친다.
@@ -138,27 +138,6 @@ public class MapService {
 			System.out.println(key + " : " + map.get(key));
 		}
 		
-		
-		
-		
-		
 	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

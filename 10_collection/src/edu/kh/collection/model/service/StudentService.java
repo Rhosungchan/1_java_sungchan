@@ -19,7 +19,7 @@ public class StudentService {
 	                                // 뒤쪽) Student 타입으로 제한된 ArrayList 객체 생성   
 	
 	public StudentService() { // (4교시)
-		
+
 		stdList.add(new Student("노성찬", 29, "의정부", 'M' , 100 ));
 		stdList.add(new Student("김효동", 29, "서울 마포구", 'M' , 90 ));
 		stdList.add(new Student("이충재", 28, "서울 영등포구", 'M' , 80 ));
